@@ -1,0 +1,184 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:62.5%;
+}
+.site-header{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2rem;
+    background-color: white;
+    color:black;
+    width:100%;
+    height: 25vh;
+}
+
+.site-main{
+    background-image: url(img/bg.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 200vh;
+    width: 100%;
+}
+
+main{
+    background:grey;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.site-footer{
+    background: black;
+    height: 5vh;
+    font-size: 12px;
+    width: 100%;
+}
+
+nav{
+    padding: 10px;
+    padding-right: 30px;
+
+}
+p{
+    font-size: 1.2rem;
+}
+.logo{
+    padding-left:30px;
+}
+.logo-img{
+
+    width: 100px;
+}
+nav a{
+    font-size: 20px;
+    color:black;
+    padding:10px;
+    text-decoration: none;
+}
+nav a:hover{
+    color:#071e5e;
+}
+
+.site-header-in{
+    display: flex;
+    justify-content: space-between;
+}
+
+h1{
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.main-pic-img{
+    width: 500px;
+    height: auto;
+    
+}
+
+.main-pic{
+    display: flex; /* grid */
+    justify-content: center;
+    background:rgba(0, 0, 0, 0.5);
+}
+
+.main-pic-text{
+    display: block;
+    margin-top:0px;
+    background: white;
+    color: black;
+    height: 50px;
+    width: 500px;
+}
+
+h2{
+    color:black;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 30px;
+}
+
+.animals{
+    display: flex;
+    justify-content: space-between;
+    padding:10px;
+    margin:10px;
+}
+
+.square{
+    flex-basis: calc(50%-20px);
+    padding: 100px;
+}
+
+.square-text{
+    text-align: center;
+    background: white;
+}
+
+.news-img{
+    width: 330px;
+    margin-bottom:-15px;
+}
+
+.news-img:hover{
+    transition: scale(1.2);
+    border-bottom: 3px solid #071e5e;
+}
+
+h3{
+    text-transform: uppercase;
+    color:black;
+    font-size: 18px;
+}
+
+h4{
+    padding: 10px;
+}
+
+.button-news{
+    text-align: center;
+    margin-left: auto;
+    display: flex;
+    justify-content: center;
+}
+
+h5{
+    background:#071e5e;
+    color:white;
+    font-size: 14px;
+    padding: 10px;
+    width: 50px;
+}
+
+h5:hover{
+    transform: scale(1.1);
+}
+
+.img-tiger{
+    width: 330px;
+    height: auto;
+    margin-bottom: -18px;
+}
+.img-tiger:hover{
+    transition: scale(1.2);
+    border-bottom: 3px solid #071e5e;
+}
+footer{
+    background: black;
+    color:white;
+    text-align: center;
+    margin-top: -20px;
+    height: 30px;
+}
+
+.contact-info{
+    background: white;
+    color:black;
+    height: 80vh;
+    width: 80%;
+    margin-left: auto;
+    margin-right:auto;
+}
+.logo-header{
+    margin-left: 40px;
+
+}
